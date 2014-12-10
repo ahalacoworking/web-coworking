@@ -1,6 +1,6 @@
 {
   "name": "web-extrema-coworking",
-  "repository": "https://github.com/extrema/coworking",
+  "repository": "https://github.com/extrema/web-coworking",
   "devDependencies": {
     "event-stream": "~3.1.5",
     "express": "~4.1.1",

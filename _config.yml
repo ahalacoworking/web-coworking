@@ -43,6 +43,7 @@ addressLocality: "Santa Cruz de Tenerife"
 placeCoordinates: "28.466347, -16.2490696"
 mapCenterCoordinates: "28.466347, -16.2490696"
 mapMobileCenterCoordinates: "28.466347, -16.2490696"
+viewOnGoogleMaps: "View on Google Maps"
 
 # Office Block
 officeBlockTitle: "Office"

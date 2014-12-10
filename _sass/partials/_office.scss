@@ -1,0 +1,57 @@
+.office-col {
+    height: 100%;
+    padding: 0;
+    padding-right: 5px;
+    &:last-child {
+        padding: 0;
+    }
+    @media (max-width: 767px) {
+        padding: 0;
+    }
+}
+.office-small-col {
+    .office-elem-wrapper {
+        &:nth-child(odd) {
+            @media (max-width: 767px) {
+                padding-right: 2.5px;
+            }
+        }
+        &:nth-child(even) {
+            @media (max-width: 767px) {
+                padding-left: 2.5px;
+            }
+        }
+        &:last-child {
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+}
+.office-elem-wrapper {
+    padding: 0;
+    padding-bottom: 5px;
+}
+.office-elem {
+    overflow: hidden;
+    text-align: left;
+    transition: $base-transition;
+}
+.office-big-elem {
+    height: 610px;
+    @media (min-width: 768px) and (max-width: 991px) {
+        height: 580px;    
+    }
+    @media (max-width: 767px) {
+        height: 340px;    
+    }
+}
+.office-small-elem {
+    height: 200px;
+    @media (min-width: 768px) and (max-width: 991px) {
+        height: 190px;    
+    }
+    @media (max-width: 767px) {
+        height: 200px;    
+    }
+}

@@ -1,0 +1,20 @@
+<!-- Begin Main Section -->
+<section id="top-section-main" class="top-section-main top-section image-section" style="background-image: url('{{ site.baseurl }}/img/{{ site.mainImage }}');">
+    {% include navigation.html %}
+    <div class="content-wrapper">
+    <div class="jumbotron">
+        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
+            {% assign mainText = site.mainTitle | split:"<typeout>" %}
+            <h1>{{ mainText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ mainText[1] }}</h1>
+            <p>{{ site.mainSubtitle }}</p>
+            {% for button in site.mainButtons %}
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float {{button.class}}" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    <a href="#about" class="explore">
+        <span class="icon-down-open"></span>
+    </a>
+    </div>
+</section>
+<!-- End Main Section -->

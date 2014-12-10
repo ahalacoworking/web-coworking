@@ -1,0 +1,27 @@
+<!-- Begin Prices Section -->
+<section id="prices" class="tickets">
+	<div class="content-wrapper">
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
+			<h3>{{ site.pricesTitle }}</h3>
+            {% for pricesOffer in site.pricesOffers %}
+	            {% assign colWidth = 12 | divided_by: forloop.length %}
+	            {% assign check = forloop.index | modulo:2 %}
+	            <div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if pricesOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+	            	{% if pricesOffer.ribbon != null %}<div class="pricing-ribbon">{{ pricesOffer.ribbon }}</div>{% endif %}
+					<div class="pricing-header">
+						<p class="title">{{ pricesOffer.name }}</p>
+						<p class="price">{{ pricesOffer.price }} <span class="currency">{{ pricesOffer.priceCurrency }}</span></p>
+					</div>
+					<div class="pricing-content">
+						<ul>
+							{% for listItem in pricesOffer.priceContentList %}
+							<li>{{ listItem }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+            {% endfor %}
+		</div>
+	</div>
+</section>
+<!-- End Prices Section -->

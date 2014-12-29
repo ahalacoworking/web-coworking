@@ -5,36 +5,33 @@ safe: true
 
 # Build Settings
 permalink: pretty
-exclude: ['/bin/', 'README.md', 'LICENSE.txt', 'CNAME', 'package.json', '/node_modules/', 'gulpfile.js', '.jshintrc', 'web-coworking.sublime-project', 'web-coworking.sublime-workspace']
+exclude: [bin, README.md, LICENSE.txt, CNAME, package.json, node_modules, gulpfile.js, .jshintrc, web-coworking.sublime-project, web-coworking.sublime-workspace ]
 
 # Site Settings
-title: "Coworking space in Santa Cruz de Tenerife"
+title: "Extreme Coworking - El mejor espacio de coworking en Santa Cruz de Tenerife"
 email: "info@extrema-sistemas.com"
-description: "Coworking space in Santa Cruz de Tenerife"
+description: "Comparte con Extrema Sistemas el mejor espacio de coworking en Santa Cruz de Tenerife"
 baseurl: ""
 url: "http://tfe.extrema-sistemas.com"
 googleAnalyticsTrackingId: ""
 googleAnalyticsSiteUrl: "tfe.extrema-sistemas.com"
 
 # Head
-metaKeywords: "coworking, space, tenerife, extrema, sistemas"
 twitterAccount: "@extremasistemas"
 
 # Main Block
 mainImage: "main.jpg"
-mainTitle: "Coworking space"
-mainSubtitle: "Santa Cruz de Tenerife"
+mainTitle: "Extreme Coworking"
+mainSubtitle: "El mejor coworking space en Santa Cruz de Tenerife"
 mainButtons:
- - {link: "mailto:info@extrema-sistemas.com", text: "Get in contact", class: "icon-mail"}
- - {permalink: "/#prices", text: "See prices", class: "icon-euro"}
+ - {link: "mailto:info@extrema-sistemas.com", text: "Ponte en contacto", class: "icon-mail"}
+ - {permalink: "/#prices", text: "Ver precios", class: "icon-euro"}
 
 # About Block
-aboutTitle: "About Extrema Sistemas Coworking space"
-aboutDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum lorem porttitor quam tempor vehicula. Sed sagittis, lacus vel pretium hendrerit, quam erat porta neque, at mollis dolor turpis ac quam. Curabitur lacus mi, semper laoreet faucibus et, bibendum at."
 aboutBlock:
- - {title: "Group", icon: "icon-users", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum lorem porttitor quam tempor vehicula. Sed sagittis, lacus vel pretium hendrerit, quam erat porta neque, at mollis dolor turpis ac quam. Curabitur lacus mi, semper laoreet faucibus et, bibendum at."}
- - {title: "Location", icon: "icon-location", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum lorem porttitor quam tempor vehicula. Sed sagittis, lacus vel pretium hendrerit, quam erat porta neque, at mollis dolor turpis ac quam. Curabitur lacus mi, semper laoreet faucibus et, bibendum at."}
- - {title: "Settings", icon: "icon-cog-alt", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum lorem porttitor quam tempor vehicula. Sed sagittis, lacus vel pretium hendrerit, quam erat porta neque, at mollis dolor turpis ac quam. Curabitur lacus mi, semper laoreet faucibus et, bibendum at."}
+ - {title: "En grupo", icon: "icon-users", text: "Somos un grupo de fanáticos que nos hemos juntado en un espacio para desarrollar software. Cada uno tiene su propia agenda y entregables, pero también nos juntamos para contarnos batallitas."}
+ - {title: "Ubicación", icon: "icon-location", text: "En plena Plaza de la Candelaria, literalmente enfrente de la estación de tranvía, a diez minutos del mayor parking gratuito de Santa Cruz. Llegar y volver nunca ha sido tan fácil."}
+ - {title: "Fibra", icon: "icon-cog-alt", text: "Contamos con fibra de Telefónica y cableado categoría 6 por toda la oficina. No creemos que sea buena cosa quedarse a medias de subir una release a producción."}
 
 # Location Block
 locationBlockTitle: "Location"
@@ -43,33 +40,33 @@ addressLocality: "Santa Cruz de Tenerife"
 placeCoordinates: "28.466347, -16.2490696"
 mapCenterCoordinates: "28.466347, -16.2490696"
 mapMobileCenterCoordinates: "28.466347, -16.2490696"
-viewOnGoogleMaps: "View on Google Maps"
+viewOnGoogleMaps: "Ver en Google Maps"
 
 # Office Block
-officeBlockTitle: "Office"
+officeBlockTitle: "El espacio"
 officeMainImage: "office_0.jpg"
 officeImage1: "office_1.jpg"
 officeImage2: "office_2.jpg"
 officeImage3: "office_3.jpg"
 
 # Prices Block
-pricesTitle: "Prices"
+pricesTitle: "Precios"
 pricesOffers:
  -
-  name: "Daily"
-  price: "50"
-  priceCurrency: "EUR"
-  ribbon: "-5%"
-  priceContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
- -
-  name: "Monthly"
+  name: "Meses sueltos"
   price: "200"
-  priceCurrency: "EUR"
+  priceCurrency: "€"
+  priceContentList: ["Mes a mes", "Mayor flexibilidad", "Puesto asignado", "Fibra óptica", "Linea telefónica"]
+ -
+  name: "Trimestral"
+  price: "160"
+  priceCurrency: "€"
   ribbon: "-20%"
   featured: true
-  priceContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  priceContentList: ["3+ meses", "Opción equilibrada", "Puesto asignado", "Fibra óptica", "Linea telefónica"]
  -
-  name: "Hourly"
-  price: "15"
-  priceCurrency: "EUR"
-  priceContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  name: "Anual"
+  price: "125"
+  priceCurrency: "€"
+  ribbon: "37%"
+  priceContentList: ["12+ meses", "Mayor ahorro", "Puesto asignado", "Fibra óptica", "Linea telefónica"]

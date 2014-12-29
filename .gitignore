@@ -1,5 +1,3 @@
-### Jekyll ###
 _site/
-
 node_modules
-web-coworking.sublime-workspace
+*.sublime-workspace

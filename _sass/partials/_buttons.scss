@@ -11,6 +11,10 @@
     &:hover, &:focus, &:active, &.active {
         outline: none;
         color: #fff;
-        background: $primary-color-hover;
+        background: $primary-color-hover !important;
     }
+}
+.btn-large {
+    font-size: 18px;
+    padding: 16px 30px;
 }

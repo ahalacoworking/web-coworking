@@ -31,7 +31,7 @@ mainButtons:
 aboutBlock:
  - {title: "En grupo", icon: "icon-users", text: "Somos un grupo de fanáticos que nos hemos juntado en un espacio para desarrollar software. Cada uno tiene su propia agenda y entregables, pero también nos juntamos para contarnos batallitas."}
  - {title: "Ubicación", icon: "icon-location", text: "En plena Plaza de la Candelaria, literalmente enfrente de la estación de tranvía, a diez minutos del mayor parking gratuito de Santa Cruz. Llegar y volver nunca ha sido tan fácil."}
- - {title: "Fibra", icon: "icon-cog-alt", text: "Contamos con fibra de Telefónica y cableado categoría 6 por toda la oficina. No creemos que sea buena cosa quedarse a medias de subir una release a producción."}
+ - {title: "Fibra", icon: "icon-cog-alt", text: "Contamos con fibra de Telefónica y cableado categoría 6 por toda la oficina. No creemos que sea buena cosa dejar a medias una subida a producción."}
 
 # Location Block
 locationBlockTitle: "Location"
@@ -59,14 +59,14 @@ pricesOffers:
   priceContentList: ["Mes a mes", "Mayor flexibilidad", "Puesto asignado", "Fibra óptica", "Linea telefónica"]
  -
   name: "Trimestral"
-  price: "160"
+  price: "170"
   priceCurrency: "€"
-  ribbon: "-20%"
+  ribbon: "-15%"
   featured: true
   priceContentList: ["3+ meses", "Opción equilibrada", "Puesto asignado", "Fibra óptica", "Linea telefónica"]
  -
   name: "Anual"
-  price: "125"
+  price: "150"
   priceCurrency: "€"
-  ribbon: "37%"
+  ribbon: "25%"
   priceContentList: ["12+ meses", "Mayor ahorro", "Puesto asignado", "Fibra óptica", "Linea telefónica"]
